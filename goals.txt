@@ -1,0 +1,15 @@
+🗹 classes for wepdat
+🗹 functions & methods to convert wepdat
+  string into usable structured data
+🗹 methods to manage wepdat structured data
+🗹 rng management
+☐ functions to randomize values
+☐ functions to write a new wepdat.cfg file
+☐ functions to read a wepdat.cfg file
+☐ functions & methods to create a spoilers
+  string
+☐ functions to write a spoilers.log file
+☐ creating a readme or similar
+☐ classes for robdat
+☐ classes for comdat
+☐ fix macho sword
