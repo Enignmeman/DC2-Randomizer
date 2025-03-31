@@ -1,0 +1,187 @@
+{
+    "Wepdat": {
+        "comment": "Values for randomizer with logic",
+        "WeaponStat": {
+            "Minimum": 0,
+            "Maximum": 1000
+        },
+        "WeaponID": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            302,
+            303,
+            387
+        ],
+        "MonsterID": [
+            -1
+        ],
+        "MeleeSwing": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "Gunshot": [
+            0,
+            10,
+            20,
+            30
+        ],
+        "ABS": {
+            "Minimum": 0,
+            "Maximum": 1000
+        },
+        "Ability": {
+            "Minimum": 0,
+            "Maximum": 4092
+        }
+    },
+    "WepdatNoLogic": {
+        "comment": "Values for logicless randomizer",
+        "WeaponStat": {
+            "Minimum": 0,
+            "Maximum": 1000
+        },
+        "WeaponID": {
+            "Minimum": 0,
+            "Maximum": 428,
+            "Invalid": [
+                53,
+                143,
+                144,
+                164,
+                171
+            ]
+        },
+        "MonsterID": {
+            "Minimum": 0,
+            "Maximum": 1000,
+            "Invalid": []
+        },
+        "MeleeSwing": {
+            "Minimum": 0,
+            "Maximum": 4
+        },
+        "Gunshot": {
+            "Minimum": 0,
+            "Maximum": 32
+        },
+        "ABS": {
+            "Minimum": 0,
+            "Maximum": 1000
+        },
+        "Ability": {
+            "Minimum": 0,
+            "Maximum": 4092
+        }
+    }
+}

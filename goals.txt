@@ -3,7 +3,8 @@
   string into usable structured data
 🗹 methods to manage wepdat structured data
 🗹 rng management
-☐ functions to randomize values
+☐ set valid values for wepdat
+☐ function to randomize wepdat
 ☐ functions to write a new wepdat.cfg file
 ☐ functions to read a wepdat.cfg file
 ☐ functions & methods to create a spoilers

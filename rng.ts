@@ -13,7 +13,7 @@ export class rngSeed{
   }
 }
 /**
- *Typescript Adaptation of the 32 bits xorshift example in C from [Wikipedia](https://en.wikipedia.org/wiki/Xorshift)
+ *Typescript equivalent of the 32 bits xorshift example in C from [Wikipedia](https://en.wikipedia.org/wiki/Xorshift)
  */
 export function xorshiftRandom(seed:rngSeed){
   let x = seed.value;
