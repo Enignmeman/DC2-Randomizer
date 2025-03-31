@@ -16,3 +16,7 @@ The goal of this project is to create an offline randomizer for Dark Chronicle (
 - Patch creation
 - Spoilers.log
 - And more...
+
+
+### Macho sword
+The Macho sword will be reimplemented.
