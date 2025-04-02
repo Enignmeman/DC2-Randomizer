@@ -78,7 +78,11 @@ class WEP_SPE {
         this.gunShot = Number(values[5])
         this.meleeSwing = Number(values[6])
     }
-    valUpdate(newVal:number[]):void{ //array must have 7 elements exactly
+    gunMeleeUpdate(newVal:number[]):void{
+        this.gunShot = newVal[0]
+        this.meleeSwing = newVal[1]
+    }
+    allValUpdate(newVal:number[]):void{ //array must have 7 elements exactly
         this.startSynthPoints = newVal[0]
         this.unknown0 = newVal[1]
         this.unknown1 = newVal[2]
@@ -181,7 +185,7 @@ export class WeaponData {
         this.wep_st_l.valUpdate(valWepStL)
         this.wep_st2.valUpdate(valWepSt2)
         this.wep_st2_l.valUpdate(valWepSt2L)
-        this.wep_spe.valUpdate(valWepSpe)
+        this.wep_spe.allValUpdate(valWepSpe)
         this.wep_build.valUpdate(valWepBuild)
     }
     allToFormattedString():string{  //returns the formatted string

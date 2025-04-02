@@ -181,7 +181,7 @@
         },
         "Ability": {
             "Minimum": 0,
-            "Maximum": 4092
+            "Maximum": 4096
         }
     }
 }

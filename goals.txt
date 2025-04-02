@@ -6,8 +6,9 @@
 🗷 set valid values for wepdat
 🗷 function to randomize wepdat
   🗹 Version 1: randomizes attack, durability and elements stats
-  ☐ Version 2: randomizes melee swing, gun shot type and ABS required to level up
+  🗹 Version 2: randomizes melee swing, gun shot type and ABS required to level up
   ☐ Version 3: randomizes weapon(s) to build up into and monster(s) required to build up
+  ☐ Version 4: randomizes weapon abilities
 ☐ functions to write a new wepdat.cfg file
 ☐ functions to read a wepdat.cfg file
 ☐ functions & methods to create a spoilers
