@@ -1,11 +1,11 @@
 import { WeaponData } from "./classes.ts"
 
-import { xorshiftRandom, rngSeed } from "./rng.ts"
+import { rngSeed } from "./rng.ts"
 
 const seed = new rngSeed()
 
 function randomValue(maximum:number):number{
-	let tempValue = xorshiftRandom(seed)%(maximum)
+	let tempValue = seed.xorshiftRandom()%(maximum)
 	if (0 > tempValue) tempValue*=-1 
 	return tempValue
 }
@@ -51,6 +51,7 @@ function ADERando(weaponStats:WeaponData[]):void{
 
 	}
 }
+// version 2 - randomizes melee weapon swing, gunshot type and ABS amount to lvl up only
 // WSSA stands for Weapon Swing, Shot and ABS
 function WSSARando(weaponState:WeaponData[]):void{
 	const swing = [0,1,2,3]

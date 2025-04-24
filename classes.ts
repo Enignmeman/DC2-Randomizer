@@ -1,13 +1,13 @@
 class WEP_ST2 {
-    id:string;  //WEP_ST2 for minimum elemental stats or WEP_ST2_L for max elemental stats
-    flame:number;
-    chill:number;
-    lightning:number;
-    cyclone:number;
-    smash:number;
-    exorcism:number;
-    beast:number;
-    scale:number;
+    private id:string;  //WEP_ST2 for minimum elemental stats or WEP_ST2_L for max elemental stats
+    private flame:number;
+    private chill:number;
+    private lightning:number;
+    private cyclone:number;
+    private smash:number;
+    private exorcism:number;
+    private beast:number;
+    private scale:number;
     constructor(_WEP_ST2:string){    //string should be formatted like this: "WEP_ST2_L 0,0,0,0,0,0,0,0"
         let identifier =_WEP_ST2.split(" ")
         if (identifier[0]=="WEP_ST2"){  //only for WEP_ST2 lines, the input/output is "WEP_ST2 0,0,0,0, 0 ,0,0,0" so separating identifier "WEP_ST2" from the weapon stats can't be done by separating using " "
@@ -41,9 +41,9 @@ class WEP_ST2 {
     }
 }
 class WEP_ST {
-    id:string;  //WEP_ST for minimum attack/durable stats or WEP_ST_L for max attack/durable stats
-    attack:number;
-    durable:number;
+    private id:string;  //WEP_ST for minimum attack/durable stats or WEP_ST_L for max attack/durable stats
+    private attack:number;
+    private durable:number;
     constructor(_WEP_ST:string){    //string should be formatted like this: "WEP_ST 0,0"
         const identifier =_WEP_ST.split(" ")
         this.id = identifier[0]
@@ -60,14 +60,14 @@ class WEP_ST {
     }
 }
 class WEP_SPE {
-    id = "WEP_SPE";
-    startSynthPoints:number;
-    unknown0:number;
-    unknown1:number;
-    lvlUpSynthPoints:number;
-    ability:number;
-    gunShot:number;
-    meleeSwing:number;
+    private id = "WEP_SPE";
+    private startSynthPoints:number;
+    private unknown0:number;
+    private unknown1:number;
+    private lvlUpSynthPoints:number;
+    private ability:number;
+    private gunShot:number;
+    private meleeSwing:number;
     constructor(_WEP_SPE:string){   //string should be formatted like this: "WEP_SPE 0,0,0,0,0,0,0"
         const values = _WEP_SPE.split(" ")[1].split(",")
         this.startSynthPoints = Number(values[0])
@@ -96,13 +96,13 @@ class WEP_SPE {
     }
 }
 class WEP_BUILD {
-    id = "WEP_BUILD";
-    buildUpWeaponId1:number;
-    buildUpWeaponId2:number;
-    buildUpWeaponId3:number;
-    defeatedMonsterRequirement1:number;
-    defeatedMonsterRequirement2:number;
-    defeatedMonsterRequirement3:number;
+    private id = "WEP_BUILD";
+    private buildUpWeaponId1:number;
+    private buildUpWeaponId2:number;
+    private buildUpWeaponId3:number;
+    private defeatedMonsterRequirement1:number;
+    private defeatedMonsterRequirement2:number;
+    private defeatedMonsterRequirement3:number;
     constructor(_WEP_BUILD:string){   //string should be formatted like this: "WEP_BUILD 0,0,0,0,0,0;"
         const values = _WEP_BUILD.split(" ")[1].split(",")
         this.buildUpWeaponId1 = Number(values[0])
@@ -128,9 +128,9 @@ class WEP_BUILD {
     }
 }
 class WEP {
-    id = "WEP";
-    unknown:number;
-    requiredABS:number;
+    private id = "WEP";
+    private unknown:number;
+    private requiredABS:number;
     constructor(_WEP:string){    //string should be formatted like this: "0,0"
         const values =_WEP.split(",")
         this.unknown = Number(values[0])
