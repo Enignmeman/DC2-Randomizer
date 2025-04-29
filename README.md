@@ -6,13 +6,15 @@ The goal of this project is to create an offline randomizer for Dark Chronicle (
   - Required ABS amount for weapon level up randomizer (Untested)
   - Melee weapon swinging style randomizer
   - Gun shot type randomizer
-  - Weapon to build up into randomizer (Work in Progress)
-  - Monsters to beat to build up randomizer (Work in Progress)
+  - Weapon to build up into randomizer
+  - Monsters to beat to build up randomizer
+  - Random weapon abilities (Work in Progress)
 - Seeds (Work in Progress)
   - Random seed
   - Set seed (Work in Progress)
+- Write randomized values to a file (Work in Progress)
+  - Writing randomized weapon values to file (Work in Progress)
 ## Currently missing features
-- Write randomized values to a file
 - Write randomized values to Dark Chronicle iso
 - Regional support
 - Patch creation
